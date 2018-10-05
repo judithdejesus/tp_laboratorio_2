@@ -13,3 +13,17 @@
 	<string.h>
 	"ArrayEmployees.h"
 
+1538771547 source:c:\users\hp\downloads\tp_laboratorio_2-master\tp_laboratorio_2-master\tp_laboratorio_2-master\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+
+1538771547 c:\users\hp\downloads\tp_laboratorio_2-master\tp_laboratorio_2-master\tp_laboratorio_2-master\arrayemployees.h
+
+1538772205 source:c:\users\hp\downloads\tp_laboratorio_2-master\tp_laboratorio_2-master\tp_laboratorio_2-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+

@@ -17,3 +17,7 @@ int findEmployeeById(Employee*, int, int);
 int removeEmployee(Employee*, int, int);
 int sortEmployees(Employee*, int , int);
 int printEmployees(Employee*, int);
+void modificarEmployees (Employee*, int, int);
+int menuModificar ();
+float promedioSalario(Employee*, int);
+void superanPromedio (Employee*, int, float);
