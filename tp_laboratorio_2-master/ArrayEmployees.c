@@ -300,12 +300,12 @@ float promedioSalario(Employee* list, int len)
         if (list[i].isEmpty == 1)
         {
             acumulador=acumulador+list[i].salary;
-            contador++;
+            contador=contador+1;
         }
     }
     promedio = acumulador/contador;
-    printf("El total de los salarios es: %f\n", &acumulador);
-    printf("El promedio de los salarios es: %f\n", &promedio);
+    printf("El total de los salarios es: %.2f\n", acumulador);
+    printf("El promedio de los salarios es: %f\n", promedio);
 
     return promedio;
 }
@@ -314,6 +314,7 @@ void superanPromedio (Employee* list, int len, float promedio)
 {
     int contador=0;
     int i;
+    //printf("promedio: %f" promedio);
     for (i=0; i<len; i++)
     {
         if (list[i].isEmpty == 1)
@@ -324,6 +325,6 @@ void superanPromedio (Employee* list, int len, float promedio)
             }
         }
     }
-    printf("%d superan el promedio de sueldos", &contador);
+    printf("%d superan el promedio de sueldos \n", contador);
 }
 

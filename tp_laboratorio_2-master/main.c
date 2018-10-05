@@ -13,14 +13,9 @@ int main()
     Employee listaEmpleados [CANTIDAD];
     int opcion;
 
-    /*int auxInit;
-    int auxAdd;
-    int auxFind;
-    int auxRemove;
-    int auxPrint;
-    int auxSort;*/
     float muestra;
     int mostrar;
+    int flag;
 
     char auxName[51];
     char auxLastName[51];
