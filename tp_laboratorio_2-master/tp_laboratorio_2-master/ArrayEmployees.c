@@ -118,17 +118,19 @@ int removeEmployee(Employee* list, int len, int id)
 
 int sortEmployees(Employee* list, int len, int order)
 {
+    Employee empleado;
     int i;
     int j;
     int comparacion;
+
     for (i=0; i<len; i++)
     {
-        for (j=i+1; i<len; j++)
+        for (j=i+1; i<len; i++)
         {
-            comparacion=strcmp(list[i].lastName, list[j].lastName);
-            if (comparacion == 0)
+            comparacion=stricmp(list[i].lastName, list[j].lastName);
+            if (comparacion < 0)
             {
-                //ordenar por nombre
+                empleado=list[j].lastName;
             }
         }
     }
